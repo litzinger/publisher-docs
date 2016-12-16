@@ -1,3 +1,9 @@
+---
+title: FAQs
+taxonomy:
+    category: docs
+---
+
 ### How do I set the default language of an MSM site?
 The officially supported method is to use the <a href="https://boldminded.com/add-ons/publisher-language-control">Publisher Language Control</a> extension.
 

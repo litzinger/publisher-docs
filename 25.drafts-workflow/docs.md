@@ -1,3 +1,9 @@
+---
+title: Drafts & Workflow
+taxonomy:
+    category: docs
+---
+
 To view a draft on the front-end, just add ``?publisher_status=draft`` to your URL, or use the ``{exp:publisher:toolbar}`` tag, which will add links to toggle the page status.
 
 ## Draft Publish Previews

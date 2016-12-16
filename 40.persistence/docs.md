@@ -1,3 +1,9 @@
+---
+title: Persistence
+taxonomy:
+    category: docs
+---
+
 Persistence is what Publisher uses to describe a 1 to 1 relationship for all content. All content is translated and the site is intended to operate as a "single tree" site. Meaning if a page or entry exists in one language, it exists in all languages. There are two settings which help enforce this, and they are Persistent Relationships and Persistent Grid.
 
 The Grid field type allows for sub content within an entry and the Persistent Grid setting ensures that your translated entries have the same number of Grid rows as the default language. This is because under most circumstances content is entered in your default language, then translated to other languages, thus if you add 3 rows in your default language, it is assumed the same 3 rows will exist in all the translated content as well.

@@ -1,3 +1,9 @@
+---
+title: Diffs
+taxonomy:
+    category: docs
+---
+
 >>> Diffs have not been added in Publisher 2 yet. This document describes the functionality found in Publisher 1.
 
 Publisher provides content diffs to show which content has been changed in your drafts. This feature is available in several configurations and options. A diff is a comparison of the open/published version of your content to the draft version. The draft is considered the newest revision, thus diffs are only available when viewing an draft, either in the control panel or the front-end of your site.
