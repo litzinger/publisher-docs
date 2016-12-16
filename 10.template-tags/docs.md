@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-Publisher will create a ``{root_url}`` variable, which should be used in place of ``{site_url}`` if you are using the language segment prefix setting. The prefix adds an additional segment to your URL (but does not affect the {segment_N} variables), thus if you rely on {site_url} to link things such as .css or .js files, they may not link properly. {root_url} will solve any linking problems you have because it is your main site URL without the language prefix.
+Publisher will create a ``{root_url}`` variable, which should be used in place of ``https://boldminded.com/`` if you are using the language segment prefix setting. The prefix adds an additional segment to your URL (but does not affect the {segment_N} variables), thus if you rely on https://boldminded.com/ to link things such as .css or .js files, they may not link properly. {root_url} will solve any linking problems you have because it is your main site URL without the language prefix.
 
 It may also be more wise to use ``{page_url}`` in your templates instead of ``{page_uri}``, which does not get prefixed with a language segment. The only difference between the two variables is ``{page_url}`` contains the full URL including the language prefix. There is no real advantage to using ``{page_uri}``, even when not using Publisher.
 
