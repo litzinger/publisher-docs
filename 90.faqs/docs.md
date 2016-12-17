@@ -4,6 +4,9 @@ taxonomy:
     category: docs
 ---
 
+### Can I try Publisher before I buy it?
+There is no try before you buy, however, there is a <a href="http://demo.boldminded.com/">live demo site</a> you can play around with before you purchase.
+
 ### How do I set the default language of an MSM site?
 The officially supported method is to use the <a href="https://boldminded.com/add-ons/publisher-language-control">Publisher Language Control</a> extension.
 
