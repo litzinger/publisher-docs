@@ -327,3 +327,44 @@ This is a simple tag to translate a URL. Publisher will automatically translate 
 ```
 {exp:publisher:translate_url url="path/to/some/page"}
 ```
+
+## ```{exp:channel:form}``` tags
+
+Publisher supports the Channel Form module, but you will need to add an additional parameter to the form tag. By adding ``publisher_status="open"`` to the tag it will load the open/published version of the entry for editing. Change it to ``publisher_status="draft"`` to edit the draft version. By default it will load the currently viewed language version of the entry. You can also use ``publisher_lang_id="1"`` to change the language of the entry. For example you can be viewing the site in English, but choose to edit the German version of the entry by changing the lang_id.
+
+You will also need to add 3 hidden fields to your tag, which will determine which version of the entry should be displayed and how it will be saved. For example:
+
+```
+{exp:channel:form publisher_status="draft"}
+    <input type="hidden" name="lang_id" value="{publisher:current_language_id}" />
+    <input type="hidden" name="publisher_view_status" value="draft" />
+    <input type="hidden" name="publisher_save_status" value="draft" />
+{/exp:channel:form}
+```
+
+If you are building a multi-step form and only submitting a subset of fields on each step you may need to add an additional hidden field. Publisher will be able to tell which fields are submitted and which are not, however, the Title and URL Title fields are not able to be detected due to how EE handles the form submission data. For example, if you create a 2 step form, but don't want to display the Title and/or URL Title fields on step 2, you will need to add the following input. If you experience issues where fields that are not on a particular step of a form are still submitting, or saving blank values over existing values, then you may need to use the ```publisher_ignore_fields``` hidden input and separate the fields by the pipe character.
+
+```
+{exp:channel:form publisher_status="draft"}
+    <input name="publisher_ignore_fields" value="title|url_title" type="hidden" />
+{/exp:channel:form}
+```
+
+## Forms
+Publisher will update all form tags (action and hidden form field parameters) with appropriately prefixed URLs. For example, ``action="path/to/page"`` will be updated with ``action="en/path/to/page"`` if English is your default value. If you wish to disable this functionality, add ``data-publisher-ignored="yes"`` to your form tags. This may be necessary for forms that post to external URLs, such as Campaign Monitor or another newsletter/subscription type service.
+
+If you are using Freeform from Solspace, and using the language prefix option, you may need to update the return and any other URL based parameter in the Freeform tag to include the language prefix. Publisher is unable to automatically update this value due to how Freeform is processing the parameter values. For example, your return parameter may need to look like this:
+
+```
+{exp:freeform:form form_name="contact" return="{publisher:current_language_code}/template_group/template"}
+```
+
+## Email Notification Templates
+
+ExpressionEngine's native **Message Pages > Email Notifications** templates can be updated to contain the two following variables:
+
+### ``{translated_entry_url}```
+This variable is exactly the same as the ``{entry_url}`` variable in the email templates in that it will create a URL based on the *Channel URL* in the Channel's Path Settings section suffixed with the entry's URL Title. The only difference is it will translate the URL accordingly.
+
+### ``{preview_url}``
+This variable will create a full URL to the entry based on its Page or Structure URL or the path defined in Publisher's Template Previews settings.
