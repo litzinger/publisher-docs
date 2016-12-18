@@ -363,7 +363,7 @@ If you are using Freeform from Solspace, and using the language prefix option, y
 
 ExpressionEngine's native **Message Pages > Email Notifications** templates can be updated to contain the two following variables:
 
-### ``{translated_entry_url}```
+### ``{translated_entry_url}``
 This variable is exactly the same as the ``{entry_url}`` variable in the email templates in that it will create a URL based on the *Channel URL* in the Channel's Path Settings section suffixed with the entry's URL Title. The only difference is it will translate the URL accordingly.
 
 ### ``{preview_url}``
