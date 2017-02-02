@@ -13,6 +13,6 @@ taxonomy:
 
 ## Tips
 
-- If using URL Prefix or Translated URLs, and you’re using the Channel URL, Comment Page URL, and Search Results URL settings then do not use a hard-coded domain name as part of the URL. For example, don’t use ``http://site.com/blog/``. Instead, use ``/blog/`` or ``https://boldminded.com/blog``.
+- If using URL Prefix or Translated URLs, and you’re using the Channel URL, Comment Page URL, and Search Results URL settings then do not use a hard-coded domain name as part of the URL. For example, don’t use ``http://site.com/blog/``. Instead, use ``/blog/`` or ``/blog``.
 Use a full domain name as the Site URL setting in your config.php file or in ***Admin > General Configuration***. Do not use ``/`` as the site_url value
 - Publisher does not support translation of entry comments.
