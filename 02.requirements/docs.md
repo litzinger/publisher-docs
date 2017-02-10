@@ -14,3 +14,5 @@ The following 3rd party add-ons are natively supported by Publisher, but they mu
 
 - Structure 4.0+
 - Assets 3.0+
+
+> Publisher 2 does not currently work with the Bloqs module, however, we expect support to be added in (or before) the spring of 2017.
