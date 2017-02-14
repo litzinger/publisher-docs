@@ -34,7 +34,7 @@ A Full diff will display all HTML. Full diffs may not be not perfect due to the 
 
 ## Field Diff Settings
 
-<a href="http://boldminded.com/assets/images/uploads/publisher-field-diff-settings.png" class="fancybox"><img src="http://boldminded.com/assets/images/uploads/publisher-field-diff-settings-sm.png" class="float_right" width="200" /></a>
+<a href="http://docs.boldminded.com/images/diff-settings-field.png" class="fancybox"><img src="http://docs.boldminded.com/images/diff-settings-field.png" width="600" /></a>
 Publisher also provides a way to render a diff of each specific field on the publish page. The following settings will appear at the bottom of the field settings page (the Publisher Accessory must be enabled).
 
 ### Diff Style
