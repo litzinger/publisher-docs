@@ -10,11 +10,10 @@ Content diffs are not available for phrases or categories.
 
 Once installed you will need to enable Diffs in the Publisher settings. Diffs can be enabled or disabled on your entry publish page and the front-end of your site, and you can optionally provide a text only diff.
 
-<a href="http://boldminded.com/assets/images/uploads/publisher-diff-example.png" class="fancybox"><img src="http://boldminded.com/assets/images/uploads/publisher-diff-example-sm.png" class="float_right" /></a>
+<a href="http://docs.boldminded.com/images/diff-entry.png" class="fancybox"><img src="http://docs.boldminded.com/images/diff-entry.png" width="600" /></a>
 
 >>> Diffs will not work on the front-end of your site for content inside of {layout:set} variables.
-
->>> Running a diff on HTML content is very complicated unless done on a line by line basis. Opening and closing HTML tags are difficult to track, especially when text around them has changed. For this reason <i>do not</i> expect a perfect diff of your content. Added and removed text will be displayed, but an opening or closing HTML tag may appear in an incorrect location, thus causing the display of the diff to appear slightly different than your actual content.
+Running a diff on HTML content is very complicated unless done on a line by line basis. Opening and closing HTML tags are difficult to track, especially when text around them has changed. For this reason <i>do not</i> expect a perfect diff of your content. Added and removed text will be displayed, but an opening or closing HTML tag may appear in an incorrect location, thus causing the display of the diff to appear slightly different than your actual content.
 
 ## Global Diff Settings
 
