@@ -10,11 +10,11 @@ The Grid field type allows for sub content within an entry and the Persistent Gr
 
 Grid and Relationship fields will visually behave differently when persistence is turned on. For example, + icons to add new rows will be removed from non-default languages. Relationship fields will be covered in a semi-transparent white screen to prevent mouse clicking to change the relationship in non-default languages. All this is to enforce persistence. If you do not like this behavior it can be disabled in the Publisher settings.
 
-![A Grid field with Persistence enabled][http://docs.boldminded.com/images/disabled-grid.png]
+![A Grid field with Persistence enabled](http://docs.boldminded.com/images/disabled-grid.png)
 
 Persistent Relationships work in the same way, meaning you can only alter the relationships when changing statuses. Changing the relationship field value when editing an entry in a different language will always use the relationships assigned to the default language version of the entry. There should be no reason to change a relationship from language to language, you are simply creating a link to another entry, which in itself should be translated.
 
-![A Relationship field with Persistence enabled][http://docs.boldminded.com/images/disabled-relationship.png]
+![A Relationship field with Persistence enabled](http://docs.boldminded.com/images/disabled-relationship.png)
 
 The same behavior applies to categories as well. A category is another form of a relationship. Under most circumstances all translations of an entry would have the same relationship or category assignments.
 
