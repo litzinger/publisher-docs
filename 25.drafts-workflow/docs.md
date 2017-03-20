@@ -14,6 +14,12 @@ Publisher includes draft publish previews. When saving an entry as a draft you w
 
 As of version 1.5, draft previews can optionally include a secret key that prevents anonymous previewing of drafts if a user adds ``?publisher_status=draft`` to the URL. Authorized previews are valid only on the same domain name the entry was saved in. The draft approval emails contain a ``{preview_url}`` variable that can be used to notify non-EE users that a draft is available. Users without CP access cannot approve the draft.
 
+## Entry Edit List
+
+When viewing the entry edit list page within the control panel each entry will display a language code label in the status column for each enabled language on your site. If the entry has been translated to that language, the label will be green. If it has not been translated it will be grey. If an entry has a draft that is newer than the published version the row will be highlighted yellow.
+
+![Entry translation and draft statuses](http://docs.boldminded.com/images/entry-statuses.png)
+
 ## Toolbar
 
 When viewing a draft the toolbar will have a yellow background. This is so content editors are aware of the fact that they are working on a draft.
