@@ -7,7 +7,7 @@ taxonomy:
 Publisher 2 requires the following system requirements:
 
 - ExpressionEngine 3.5+
-- PHP 5.4+
+- PHP 5.5+
 - PHP Multibyte modules
 
 The following third-party add-ons are natively supported by Publisher 2, but they must be of the versions noted.
