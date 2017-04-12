@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
->>> You must upgrade to Publisher 1.7.4 by clicking the Run Module Updates button in ExpressionEngine 2 before upgrading to ExpressionEngine 3. Failure to do this will void any support tickets you may have resulting from a failed upgrade.
+>>> You must upgrade to the latest version of Publisher by clicking the Run Module Updates button in ExpressionEngine 2 before upgrading to ExpressionEngine 3. Failure to do this will void any support tickets you may have resulting from a failed upgrade. The latest version of Publisher 1 is included in your Publisher 2 zip file.
 
 To install Publisher move the ``/addons/publisher/`` directory to your ``/system/user/addons/`` folder. Also copy the ``/themes/user/publisher/`` folder to the ``/themes/user/`` directory in your ExpressionEngine install. Login to your control panel and visit the Developer > Add-on Manager page, and click the Install link for Publisher.
 
