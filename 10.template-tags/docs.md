@@ -239,6 +239,10 @@ An early parsed global variable that will give you the language code (generally 
 
 An early parsed global variable to reference the current language code, e.g. "en", "es", "de".
 
+``{publisher:current_locale}``
+
+An early parsed global variable that will give you the current locale as defined in the language, e.g. ``es_ES`` or ``fr-CA``.
+
 ``{publisher:default_language_id}``
 
 An early parsed global variable that will give you the ID of the default language for the site.
