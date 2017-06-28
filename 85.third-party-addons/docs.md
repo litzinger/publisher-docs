@@ -4,10 +4,10 @@ taxonomy:
     category: docs
 ---
 
-# Structure
+## Structure
 Publisher does not support the trailing slash in site pages which was dropped in EE around version 2.5, however, Structure has a backwards compatibility setting to keep the trailing slashes, but this is not supported by Publisher. You must disable the use of trailing slashes in Structure to maintain Publisher compatibility.
 
-## Structure Tags
+### Structure Tags
 The following parameters will need to be added to Structure tags to work with Publisher.
 
     {exp:structure:titletrail channel:title="publisher"}
@@ -35,7 +35,7 @@ All Structure global variables will be updated with the translated values as wel
     {structure:page:slug}
 
 
-# Channel Form
+## Channel Form
 To enable support for Channel Form, you need to add 3 hidden fields to your forms:
 
     <input type="hidden" name="publisher_save_status" value="draft|open" />
@@ -51,5 +51,5 @@ If you wish to let users edit a draft version of an entry while the rest of the 
     {exp:channel_form:form publisher_status="draft"}
 
 
-# Low Seg 2 Cat
+## Low Seg 2 Cat
 If you are currently using Low Seg 2 Cat and are using translated URLs in Publisher, then you might want to try [URL Helper](https://github.com/litzinger/URL-Helper) instead. It works specifically with Publisher and provides nearly identical functionality as Low Seg 2 Cat (plus more) and will return the category segment values even with translated URLs.
