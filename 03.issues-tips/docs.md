@@ -6,10 +6,9 @@ taxonomy:
 
 ## Known Issues
 
-- Installation can take a few minutes if you are installing into an existing site that has 500+ entries.
 - Publisher does not work with the eAccelorator. It causes issues with setting cookies and session data.
 - Disable GZIP compression on your server for best results. GZIP can cause issues with some PHP scripts.
-- Publisher 2 does not support the Playa or Matrix field types from EE Harbor. EllisLab has created a Playa and Matrix to Relationships and Grid conversion plugin. As of December 2016 Playa and Matrix are not available for EE3. Even if they ever do become available Publisher 2 will never support them. The main reason for this decision is to reduce added complexity to the codebase and reduce the overall support necessary for Publisher.
+- Publisher 2 does not support the Playa or Matrix field types from EE Harbor. If you are upgrading from an EE 2 site you can use the [PlayaMatrixImporter](https://github.com/EllisLab/PlayaMatrixImporter) from EllisLab to migrate Playa fields to Relationships, and Matrix fields to Grid.
 
 ## Tips
 
