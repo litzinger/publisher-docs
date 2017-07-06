@@ -26,5 +26,5 @@ Publisher will not translate custom field type names, help text, or Grid column 
 No, Publisher does not support translation of entry comments.
 
 ### Does Publisher work with X add-on?
-This is a hard question to answer, but the first place you should check is the [Requirements](requirements) and [third-party add-ons](third-party-addons) pages. If you know the add-on does not save its data in a custom database table, then most likely Publisher supports it. If it saves its data in a custom table, such as the Channel Images add-on, then it may not work with Publisher. If in doubt, [just ask us](mailto:support@boldminded.com).
+This is a hard question to answer, but the first place you should check is the [Requirements](../requirements) and [third-party add-ons](../third-party-addons) pages. If you know the add-on does not save its data in a custom database table, then most likely Publisher supports it. If it saves its data in a custom table, such as the Channel Images add-on, then it may not work with Publisher. If in doubt, [just ask us](mailto:support@boldminded.com).
 
