@@ -14,10 +14,7 @@ The following third-party add-ons are natively supported by Publisher 2, but the
 
 - Structure 4.0+
 - Assets 3.0+
-
-Third-party add-ons not currently supported, but will be in the near future.
-
-- Bloqs
+- Bloqs 3.1+
 
 Third-party add-ons that are not supported now, or in the future.
 
