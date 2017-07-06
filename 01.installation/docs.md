@@ -14,5 +14,4 @@ After installation you will be directed to the ***Publisher > Languages*** manag
 
 If you add no additional languages Publisher will not show a language drop down menu in the toolbar, thus Publisher will only let you create drafts and published versions of content, no translations.
 
-<iframe src="https://player.vimeo.com/video/224449175" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/224449175">Publisher 2 Installation</a> from <a href="https://vimeo.com/user4788348">Brian Litzinger</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://player.vimeo.com/video/224449175" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
