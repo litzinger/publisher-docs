@@ -22,6 +22,7 @@ Known third-prty add-ons that work with Publisher.
 - Store
 - Carthrob
 - URL Helper
+- [Many more (read FAQs)](../faqs)
 
 Third-party add-ons that are not supported now, or in the future.
 
