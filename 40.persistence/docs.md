@@ -32,5 +32,5 @@ When you turn persistence off and if you have the same 10 entries, but 2 of them
 
 The feature was added because many people had a site that 90% of the pages/content existed in all languages, however, they might have had a news/blog feed, for example, that the posts did not pertain to all languages (mostly due to localization, not strictly translation).
 
-Generally people leave persistence turned on. If you are on a page of your site and expect a full translation of that page in any language, then persistence should benenabled. You can almost think of it as an MSM site, where each site may have different content (persistence turned off).
+Generally people leave persistence turned on. If you are on a page of your site and expect a full translation of that page in any language, then persistence should be enabled. You can almost think of it as an MSM site, where each site may have different content (persistence turned off).
 

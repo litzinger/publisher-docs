@@ -12,7 +12,7 @@ Publisher includes draft publish previews. When saving an entry as a draft you w
 
 ## Authorized Draft Previews
 
-As of version 1.5, draft previews can optionally include a secret key that prevents anonymous previewing of drafts if a user adds ``?publisher_status=draft`` to the URL. Authorized previews are valid only on the same domain name the entry was saved in. The draft approval emails contain a ``{preview_url}`` variable that can be used to notify non-EE users that a draft is available. Users without CP access cannot approve the draft.
+Draft previews can optionally include a secret key that prevents anonymous previewing of drafts if a user adds ``?publisher_status=draft`` to the URL. Authorized previews are valid only on the same domain name the entry was saved in. The draft approval emails contain a ``{preview_url}`` variable that can be used to notify non-EE users that a draft is available. Users without CP access cannot approve the draft.
 
 ## Email Notifications
 

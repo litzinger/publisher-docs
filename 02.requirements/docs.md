@@ -16,6 +16,13 @@ The following third-party add-ons are natively supported by Publisher 2, but the
 - Assets 3.0+
 - Bloqs 3.1+
 
+Known third-prty add-ons that work with Publisher.
+
+- SEO Lite
+- Store
+- Carthrob
+- URL Helper
+
 Third-party add-ons that are not supported now, or in the future.
 
 - Matrix
