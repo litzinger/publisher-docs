@@ -139,6 +139,14 @@ Pass the phrase name without the prefix to return the translated value.
 
 If the replace parameter is provided, it will attempt to perform a vsprintf() function on the phrase contents. For example if your phrase is "The time is %s" and you add ``replace="{current_time}"`` to the tag, it will insert the current time into the phrase string. Using a pipe character in the replace parameter will indicate that it is an array of values, thus you should have multiple %s tokens in your phrase string.
 
+``site_id="2"``
+
+If you have a phrase with the same name in multiple sites you can choose which translation to return.
+
+``escape="[html|attr]"``
+
+When using the replace parameter there may be instances in which the phrase name contains a replace token (%s), and the contents contain html tags. Using the escape parameter will ensure the html tags are properly escaped.
+
 ```
 {exp:publisher:translate_phrase_name="some_word"}
 ```
