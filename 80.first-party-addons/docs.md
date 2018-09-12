@@ -12,8 +12,6 @@ Add additional options for controlling which languages member groups can edit, a
 ### <a href="https://boldminded.com/add-ons/publisher-domain-control">Publisher Domain Control</a>
 Easily use sub-domains for each language on your site.
 
->>> The following add-ons are not yet compatible with Publisher 2 for ExpressionEngine 3.
-
 ### <a href="https://boldminded.com/add-ons/publisher-low-search">Publisher Low Search</a>
 Add Publisher support to the Low Search module.
 
