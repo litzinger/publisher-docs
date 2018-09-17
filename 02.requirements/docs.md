@@ -4,13 +4,13 @@ taxonomy:
     category: docs
 ---
 
-Publisher 2 requires the following system requirements:
+Publisher requires the following system requirements:
 
 - ExpressionEngine 3.5+
 - PHP 5.6+
 - PHP Multibyte modules
 
-The following third-party add-ons are natively supported by Publisher 2, but they must be of the versions noted.
+The following third-party add-ons are natively supported by Publisher, but they must be of the versions noted.
 
 - Structure 4.0+
 - Assets 3.0+

@@ -8,7 +8,7 @@ taxonomy:
 
 - Publisher does not work with the eAccelorator. It causes issues with setting cookies and session data.
 - Disable GZIP compression on your server for best results. GZIP can cause issues with some PHP scripts.
-- Publisher 2 does not support the Playa or Matrix field types from EE Harbor. If you are upgrading from an EE 2 site you can use the [PlayaMatrixImporter](https://github.com/EllisLab/PlayaMatrixImporter) from EllisLab to migrate Playa fields to Relationships, and Matrix fields to Grid.
+- Publisher does not support the Playa or Matrix field types from EE Harbor. If you are upgrading from an EE 2 site you can use the [PlayaMatrixImporter](https://github.com/EllisLab/PlayaMatrixImporter) from EllisLab to migrate Playa fields to Relationships, and Matrix fields to Grid.
 
 ## Tips
 
