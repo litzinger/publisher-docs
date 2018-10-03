@@ -4,10 +4,6 @@ taxonomy:
     category: docs
 ---
 
-![Phrase Group](http://docs.boldminded.com/images/phrase-group.png)
-
-![Phrase Translations](http://docs.boldminded.com/images/phrase-edit.png)
-
 During installation Publisher will create two phrase groups. Default, and Languages. These two groups can not be deleted as Publisher expects them to be present. When a language is added it will also be added to the languages phrase group. The langauges phrase group is used by Publisher when listing site languages via the module tags so the language name itself can be translated to the end user.
 
 Phrases are available in your template as early parsed global variables, e.g. ``{phrase:[phrase_short_name]}``
