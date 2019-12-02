@@ -6,4 +6,4 @@ taxonomy:
 
 # Publisher
 
-Multilingual content and publishing workflow in ExpressionEngine 3
+Multilingual content and publishing workflow in ExpressionEngine
